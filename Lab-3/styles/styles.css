@@ -1,4 +1,4 @@
-body {
+body{
     width: 600px;
     margin : 0 auto;
     font-family: 'Lucida Sans';
@@ -20,7 +20,7 @@ h3 {
     display: inline;
 }
 
-.services, .footer p{
+.services p, .footer p{
     font-style: italic;
 }
 
