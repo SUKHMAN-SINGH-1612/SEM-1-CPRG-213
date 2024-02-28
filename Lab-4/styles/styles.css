@@ -1,7 +1,7 @@
 .flex1{
     display: flex;
     gap: 10px;
-    background-color: aqua;
+    background-color: #F7464E;
 }
 .flex1 div{
     height:50px;
@@ -20,7 +20,7 @@
 .flex2{
     display: flex;
     gap: 15px;
-    background-color: aqua;
+    background-color:#F7464E;
 }
 .flex2 div{
     height:50px;
@@ -41,7 +41,7 @@
 .flex3{
     display: flex;
     gap: 12px;
-    background-color: aqua;
+    background-color: #F7464E;
 }
 
 .flex3 div{
@@ -66,14 +66,14 @@
     display: flex;
     gap: 12px;
     flex-direction: column;
-    background-color: aqua;
+    background-color: #F7464E;
 }
 
 #flex42{
     display: flex;
     gap: 12px;
     flex-direction: row;
-    background-color: aqua;
+    background-color: #F7464E;
 }
 
 #flex42 ul{
