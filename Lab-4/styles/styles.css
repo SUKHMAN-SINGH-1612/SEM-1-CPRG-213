@@ -62,6 +62,13 @@
     margin-right: 12px;
 }
 
+.flex4{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    background-color: aqua;
+}
+
 #flex42{
     display: flex;
     gap: 12px;
@@ -69,7 +76,7 @@
     background-color: aqua;
 }
 
-#flex42 div{
+#flex42 ul{
     height:50px;
     background-color: blanchedalmond;
     margin-top:12px;
@@ -86,19 +93,12 @@
     margin-right: 12px;
 }
 
-#miniflex4{
-    display: flex;
-    gap: 12px;
-    flex-direction: column;
-    background-color: aqua;
-}
 #mini2{
     height:50px;
     background-color: blanchedalmond;
     margin-top:12px;
     margin-bottom: 12px;
     border: 2px solid black;
-    flex: miniflex4;
     margin-left: 12px;
     margin-right: 12px;
 }
