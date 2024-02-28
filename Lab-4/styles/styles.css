@@ -1,0 +1,87 @@
+.flex1{
+    display: flex;
+    gap: 10px;
+    background-color: aqua;
+}
+.flex1 div{
+    height:50px;
+    background-color: blanchedalmond;
+    margin-top:10px;
+    margin-bottom: 10px;
+    flex: 1;
+}
+#flex1box1{
+    margin-left: 10px;
+}
+#flex1box2{
+    margin-right: 10px;
+}
+
+.flex2{
+    display: flex;
+    gap: 15px;
+    background-color: aqua;
+}
+.flex2 div{
+    height:50px;
+    background-color: blanchedalmond;
+    margin-top:15px;
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+#flex2box1{
+    margin-left: 15px;
+}
+
+#flex2box3{
+    margin-right: 15px;
+}
+
+.flex3{
+    display: flex;
+    gap: 12px;
+    background-color: aqua;
+}
+
+.flex3 div{
+    height:50px;
+    background-color: blanchedalmond;
+    margin-top:12px;
+    margin-bottom: 12px;
+    border: 2px solid black;
+    flex: 1;
+}
+
+#flex3box1{
+    margin-left: 12px;
+    flex-grow: 2;
+}
+
+#flex3box3{
+    margin-right: 12px;
+}
+
+.flex4{
+    display: flex;
+    gap: 12px;
+    background-color: aqua;
+}
+
+.flex4class{
+    height:50px;
+    background-color: blanchedalmond;
+    margin-top:12px;
+    margin-bottom: 12px;
+    border: 2px solid black;
+    flex: 1;
+}
+
+#layer1{
+    height:25px;
+    background-color: blanchedalmond;
+    margin-top:12px;
+    margin-bottom: 12px;
+    border: 2px solid black;
+    flex: 1;
+}
