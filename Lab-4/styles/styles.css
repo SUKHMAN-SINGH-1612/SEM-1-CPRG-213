@@ -64,7 +64,7 @@
 
 .flex4{
     display: flex;
-    gap: 12px;
+    margin: 12,0,12,12;
     flex-direction: column;
     background-color: #F7464E;
 }
@@ -96,7 +96,7 @@
 #mini2{
     height:50px;
     background-color: blanchedalmond;
-    margin-top:12px;
+    margin-top:0px;
     margin-bottom: 12px;
     border: 2px solid black;
     margin-left: 12px;
