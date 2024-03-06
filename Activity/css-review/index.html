@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<!-- Instructions: 
+  1. Form a team of 3 - 4 students.
+  2. Decide on the role(s) of each team member. 
+    - Design Lead: responsible for the overall design and layout of the website, has an eye for design and vision for the website
+    - Image Creator: responsible for the images used on the website, e.g. creating the hero image, icons. https://www.craiyon.com/  https://icons8.com/icons/set/exercise
+    - Color Picker: responsible for the colors used on the website by creating a color palette, e.g. https://coolors.co/
+    - Content Writer (optional): responsible for the content of the website
+    - Presenter (multiple positions available): responsible for presenting the website to the class
+    - Developer (full-time position): responsible for the development of the website, uses Visual Studio Code, types HTML and CSS
+    - Pair programmer: watches the developer type, reviews the code, provides feedback and debugging assistance
+  3. Improve the design of this website.
+  4. (Optional) Present your website to the class.
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FIT STRIDE</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1><em>
+        <!-- Be creative. Give this app a name! Replace the title too. -->
+        FITSTRIDE</em>
+      </h1>
+      <nav class = "navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#cta">CTA</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+          <!-- Add more sections as needed -->
+        </ul>
+      </nav>
+      <section class="slideshow">
+        <div class="slide fade">
+          <img src="images/gym.jpg" width = "500", height="500" alt="Image 1">
+        </div>
+        <div class="slide fade">
+          <img src="images/workout.jpg" width = "500", height="500" alt="Image 2">
+        </div>
+        <div class="slide fade">
+          <img src="images/gym_equipment.jpg" width = "500", height="500" alt="Image 3">
+        </div>
+        <div class="slide fade">
+          <img src="images/istockphoto-1322158059-612x612.jpg" width = "500", height="500" alt="Image 4">
+        </div>
+      <!-- Add more slides as needed -->
+    </section>
+    </header>
+    <main>
+      <section class="hero">
+        <!-- Hero image here -->
+      </section>
+      <section class="value-proposition">
+        <h2>Transform Your Fitness</h2>
+        <p>
+          Join our community of fitness enthusiasts and start achieving your
+          fitness goals today.
+        </p>
+        <a href="#" class="button">Get Started</a>
+      </section>
+
+      <section id="features">
+        <h2 class = "feature-cor">Features</h2>
+        <ul>
+          <li>
+            <!-- consider adding icons for each feature -->
+            <h3>Track Your Workouts</h3>
+            <p>
+              Keep track of your reps, sets, and exercise history with our
+              easy-to-use workout tracker.
+            </p>
+          </li>
+          <li>
+            <h3>Set Goals and Measure Progress</h3>
+            <p>
+              Set achievable fitness goals and watch as you make progress
+              towards achieving them.
+            </p>
+          </li>
+          <li>
+            <h3>Connect with Others</h3>
+            <p>
+              Connect with other fitness enthusiasts and gain motivation and
+              accountability from like-minded individuals.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="testimonials">
+        <h2 class = "what">What Our Users Are Saying</h2>
+        <ul>
+          <li>
+            <blockquote>
+              "I love this app! It's helped me stay motivated and on track with
+              my fitness goals."
+            </blockquote>
+            <cite>- John D.</cite>
+          </li>
+          <li>
+            <blockquote>
+              "Finally, an app that makes it easy to connect with other fitness
+              enthusiasts who share my goals."
+            </blockquote>
+            <cite>- Jane M.</cite>
+          </li>
+          <li>
+            <blockquote>
+              "The progress tracking features are top-notch. I can see my
+              improvement week by week!"
+            </blockquote>
+            <cite>- Mike S.</cite>
+          </li>
+        </ul>
+      </section>
+
+      <section id="cta">
+        <h2>Join Our Fitness Community Today</h2>
+        <p>Download our app now and start transforming your fitness.</p>
+        <a href="#" class="button button-primary">Get the App</a>
+        <a href="#" class="button">Learn More</a>
+      </section>
+
+      <section id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>
+          Get the latest news and updates about our product and community
+          directly in your inbox.
+        </p>
+
+        <form>
+          <label for="email">Enter your email address:</label>
+          <input type="email" id="email" name="email" required />
+
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>&copy; Copyright CPRG-213 Winter 2024</footer>
+  </body>
+</html>
