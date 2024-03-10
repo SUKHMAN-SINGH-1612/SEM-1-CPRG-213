@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.page-name{
+    margin-top: 15px;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 30px;
+}
+
+.navigation div{
+    border: solid 1px black;  
+    text-align: center;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#active-page{
+    background-color: #4681db;
+    border: solid  #4681db 
+}
+
+#second-page{
+    border-top: none;
+}
+
+.story{
+    margin-top: 35px;
+}
+
+footer{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 5px;
+    color:rgb(115, 120, 119);
+}
+
+footer a{
+    text-decoration: none;
+    color:rgb(115, 120, 119);
+}
+
+#second-page-2{
+    border-bottom: none;
+}
+
+.form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.form div{
+    text-align: center;
+}
+
+.submit{
+    margin-top: 20px;
+}
+
+#submit{
+    width: 120px;
+}
+
+label{
+    color:rgb(115, 120, 119);
+}
+
+#message-input{
+    height: 50px;
+    border: solid 1px black;
+}
+
+#name-input, #email-input{
+    border: solid 1px black;
+}
+
+#y_message{
+    margin-right: 25px;
+}
