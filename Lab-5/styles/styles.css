@@ -89,6 +89,10 @@ label{
     border: solid 1px black;
 }
 
+#email-input{
+    margin-left: 2px;
+}    
+
 #y_message{
-    margin-right: 25px;
+    margin-right: 24px;
 }
