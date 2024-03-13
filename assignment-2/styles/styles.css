@@ -1,0 +1,135 @@
+/****************** YOUR NAME: 
+
+Some starter CSS has been provided. You are discouraged from modifying the starter CSS.
+
+The instructions describe the missing styling and layout that is needed; you will translate these into CSS declarations in the places indicated.
+
+*/
+
+/****************** page defaults ******************/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.fixed-width {
+    width: 600px;
+    margin: 0 auto; /* centers content on the screen */
+}
+
+.hidden {
+    display: none; /* hides elements that are needed for DOM */
+}
+
+.flex {
+    display: flex; 
+}
+
+/****************** typography ******************/
+
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+/***  INSTRUCTIONS:
+
+- 1st level headings will be 32px.
+- 2nd level headings will be 24px.
+- 3rd level headings will be 18px and bold.
+- All footer text will be 12px.
+- Anchors will not be underlined until we hover over them.
+- Anchors in the header will be black.
+- There will be 15px of space under 2nd level headings and paragraphs.
+*/
+
+/*** INSERT YOUR WORK BELOW: ***/
+
+
+
+
+
+
+
+
+
+
+/****************** site-wide styling ******************/
+
+/***  INSTRUCTIONS:
+
+- The header and footer will be #c74365.
+- There will be 30px of space between the header and the main, and between the main and the footer.
+- Anchors in the header will be 18px.
+- The logo in the header will be 30px tall and wide, with 10px of space on all sides.
+- The top-level heading and the links in the header will have a line-height of 50px to center them within the header.
+- There will be enough space between the page heading and the links so the last link is flush with the edge of the page. (HINT: Guess-and-check method can be useful here!)
+- There will be 15px of space between each link.
+- The text in the footer will be centered, with 15px of space between the content and the edge of the footer.
+*/
+
+/*** INSERT YOUR WORK BELOW: ***/
+
+
+
+
+
+
+
+
+
+/****************** home page styling ******************/
+
+/***  INSTRUCTIONS:
+- Everything in the "italics" class will be italicized.
+- Each article will have a background colour of lightgray, space between content and border of 15px, and 15px of space around the element on each side.
+*/
+
+/*** INSERT YOUR WORK BELOW: ***/
+
+
+
+
+
+
+
+
+/****************** profile page styling ******************/
+
+/***  INSTRUCTIONS:
+- The wide column will be 420px wide.
+- The narrow column will be 180px wide.
+- The profile picture will be 120px wide.
+- The labels div will be bold, and 70px wide. Text will be aligned to the right.
+- There will be 15px of space on the right side of the labels div.
+- The light-background class will have a background colour of lightgray, a height of 140px, and will be shifted down by 30px.
+- The 2nd level heading within the light-backgroun will be shifted down 10px, and have 15px of space on its left and below.
+*/
+
+/*** INSERT YOUR WORK BELOW: ***/
+
+
+
+
+
+
+/****************** form styling ******************/
+
+/***  INSTRUCTIONS:
+- The form will have 45px of space above and below.
+- Labels will have a display property of block, be bold, and centered.
+- Input fields will be 100px wide.
+- There will be 15px of space between each day.
+- The button will be 21px tall and the same width as the input boxes (HINT: use the element inspector in your browser).
+- There will be 30px of space above the button, and as much space as needed on the left so that the edge of the button is flush with the fixed width container. (HINT: remember the width of the fixed-width container.)
+- The button will have a 1px solid grey border and have a white background, which will change to grey when we hover over it.
+- The border will have a border-radius set to 4px.
+- The button will use the same font as the body.
+*/
+
+/*** INSERT YOUR WORK BELOW: ***/
+
+
+
+

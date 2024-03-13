@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>XYZ Intranet - Timesheet</title>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="fixed-width flex">
+                <img src="images/logo.png" alt="widget logo">
+                <h1>XYZ Inc.</h1>
+                <nav>
+                    <h2 class="hidden">nav</h2>
+                    <ul class="flex">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./profile.html">Profile</a></li> <!-- link -->
+                        <li><a href="./timesheet.html">Timesheet</a></li> <!-- link -->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="fixed-width">
+            <section class = "timesheet-content">
+                <h2>Timesheet</h2>
+                <p>Enter hours for current work period:</p>
+                <form>
+                    <div class="flex">
+                        <div>
+                            <label for="date1">Monday:</label>
+                            <input type="text" id="date1">
+                        </div>
+                        <div>
+                            <label for="date2">Tuesday:</label>
+                            <input type="text" id="date2">
+                        </div>
+                        <div>
+                            <label for="date3">Wednesday:</label>
+                            <input type="text" id="date3">
+                        </div>
+                        <div>
+                            <label for="date4">Thursday:</label>
+                            <input type="text" id="date4">
+                        </div>
+                        <div>
+                            <label for="date5">Friday:</label>
+                            <input type="text" id="date5">
+                        </div>
+                    </div>
+                    <button>Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="fixed-width">
+                <p>Made for CPRG 213</p>
+                <a href="https://www.flaticon.com/free-icons/widget" title="widget icons">Widget icons created by zafdesign - Flaticon</a>
+            </div>
+        </footer>
+    </body>
+</html>
+
