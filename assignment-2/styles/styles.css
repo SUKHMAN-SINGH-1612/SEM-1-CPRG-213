@@ -1,4 +1,4 @@
-/****************** YOUR NAME: 
+/****************** YOUR NAME: Sukhmsn Singh
 
 Some starter CSS has been provided. You are discouraged from modifying the starter CSS.
 
@@ -45,16 +45,31 @@ h1, h2 {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
-
-
-
-
-
-
-
-
-
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+footer{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+header a{
+    color: black;
+}
+h2, p{
+    margin-bottom: 15px;
+}
 /****************** site-wide styling ******************/
 
 /***  INSTRUCTIONS:
@@ -70,15 +85,36 @@ h1, h2 {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
-
-
-
-
-
-
-
-
+header, footer{
+    background-color: #c74365;
+}
+header{
+    margin-bottom: 30px;
+}
+footer{
+    margin-top: 30px;
+}
+header a{
+    font-size: 18px;
+}
+header img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.fixed-width h1, header a{
+    line-height: 50px;
+}
+.fixed-width h1{
+    margin-right: 200px;
+}
+header ul{
+    gap: 15px;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+}
 /****************** home page styling ******************/
 
 /***  INSTRUCTIONS:
@@ -87,13 +123,14 @@ h1, h2 {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
-
-
-
-
-
-
+.italics{
+    font-style: italic;
+}
+article{
+    background-color: lightgray;
+    padding: 15px;
+    margin: 15px;
+}
 
 /****************** profile page styling ******************/
 
@@ -108,19 +145,38 @@ h1, h2 {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
-
-
-
-
-
+.wide-column{
+    width: 420px;
+}
+.narrow-column{
+    width: 180px;
+}
+main img{
+    width: 120px;
+}
+.labels{
+    font-weight: bold;
+    width: 70px;
+    text-align: right;
+    margin-right: 15px;
+}
+.light-background{
+    background-color: lightgray;
+    height: 140px;
+    margin-top: 30px;
+}
+.light-background h2{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
 /****************** form styling ******************/
 
 /***  INSTRUCTIONS:
 - The form will have 45px of space above and below.
 - Labels will have a display property of block, be bold, and centered.
 - Input fields will be 100px wide.
-- There will be 15px of space between each day.
+- There will be 15px of space between each day. ***
 - The button will be 21px tall and the same width as the input boxes (HINT: use the element inspector in your browser).
 - There will be 30px of space above the button, and as much space as needed on the left so that the edge of the button is flush with the fixed width container. (HINT: remember the width of the fixed-width container.)
 - The button will have a 1px solid grey border and have a white background, which will change to grey when we hover over it.
@@ -129,7 +185,33 @@ h1, h2 {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
-
-
-
+form{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+form label{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+form input{
+    width: 100px;
+}
+/***
+.form div{
+    margin: 15px;
+}
+*/
+button{
+    height: 21px;
+    width: 108px;
+    margin-top: 30px;
+    margin-left: 492px;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+button:hover{
+    background-color: grey;
+}
