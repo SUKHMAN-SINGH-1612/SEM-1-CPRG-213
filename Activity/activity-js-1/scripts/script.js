@@ -15,7 +15,7 @@ function showPrompt() {
 }
 
 // Demo Part 2
-document.getElementById("input").addEventListener("keyup", updateChangeOutput);
+document.getElementById("input").addEventListener("key-down", updateChangeOutput);
 document.getElementById("update").addEventListener("click", updateClickOutput);
 
 function updateChangeOutput() {
@@ -34,16 +34,16 @@ document.getElementById("calculator").addEventListener("click", showCalculator);
 function showCalculator() {
   let num1 = prompt("Enter the first number");
   let num2 = prompt("Enter the second number");
-  let operator = prompt("Enter the operator");
-  let result = 0;
-  if (operator === "+") {
-    result = parseInt(num1) + parseInt(num2);
-  } else if (operator === "-") {
-    result = parseInt(num1) - parseInt(num2);
-  } else if (operator === "*") {
-    result = parseInt(num1) * parseInt(num2);
-  } else if (operator === "/") {
-    result = parseInt(num1) / parseInt(num2);
+  if (num1 === "" || num2 === "" || isNaN(num1) || isNaN(num2)){
+    alert("Please enter a number");
+    return;
   }
-  alert("The result is " + result);
+  let sum = parseInt(num1) + parseInt(num2);
+  let difference = parseInt(num1) - parseInt(num2);
+  let product = parseInt(num1) * parseInt(num2);
+  let quotient = parseInt(num1) / parseInt(num2);
+  alert("The sum result is " + sum);
+  alert("The difference result is " + difference);
+  alert("The product result is " + product);
+  alert("The quotient result is " + quotient);
 }
