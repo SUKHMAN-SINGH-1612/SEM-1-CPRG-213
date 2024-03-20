@@ -1,4 +1,4 @@
-/****************** YOUR NAME: Sukhmsn Singh
+/****************** YOUR NAME: Sukhman Singh
 
 Some starter CSS has been provided. You are discouraged from modifying the starter CSS.
 
@@ -39,7 +39,8 @@ h1, h2 {
 - 2nd level headings will be 24px.
 - 3rd level headings will be 18px and bold.
 - All footer text will be 12px.
-- Anchors will not be underlined until we hover over them.
+- 
+Anchors will not be underlined until we hover over them.
 - Anchors in the header will be black.
 - There will be 15px of space under 2nd level headings and paragraphs.
 */
@@ -59,6 +60,7 @@ footer{
     font-size: 12px;
 }
 a{
+    color :black;
     text-decoration: none;
 }
 a:hover{
@@ -197,11 +199,9 @@ form label{
 form input{
     width: 100px;
 }
-/***
-.form div{
-    margin: 15px;
+.flex > div {
+    margin-right: 15px;
 }
-*/
 button{
     height: 21px;
     width: 108px;
