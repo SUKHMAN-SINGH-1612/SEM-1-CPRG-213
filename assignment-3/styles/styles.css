@@ -176,6 +176,9 @@ footer{
     width: 600px;
     margin: 0 auto;
     font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 210px;
 }
 
 .day-selector li{
@@ -201,14 +204,6 @@ footer{
     width: 200px;
 }
 
-.clicked{
-    background-color: #E5AF42;
-}
-
-
-
-
-
 
 /************* contact page *************/
 /* TO DO:
@@ -221,5 +216,32 @@ footer{
 .contact{
     height: 420px;
     margin: 0 auto;
+    margin-left: 210px;
 }
 
+.contact label{
+    width: 150px;
+    text-align: right;
+    margin-right: 24px;
+}
+
+.contact input{
+    width: 300px;
+    border: 1px solid black;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.contact textarea{
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+#submit-button{
+    margin-left: 405px;
+}
